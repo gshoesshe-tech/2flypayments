@@ -164,7 +164,6 @@ async function setupPage(){
 }
 
 async function loginPage(){
-  if(!requireSetup()) return;
   initSupabase();
 
   $("#loginForm").addEventListener("submit", async e=>{
