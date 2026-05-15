@@ -3,11 +3,11 @@ const $ = s => document.querySelector(s);
 const APP_CONFIG = {
   // HARD-CODED CONFIG
   // Paste your correct Supabase URL and anon public key here before deploying.
-  SUPABASE_URL: "https://wfqnckfxbsnunbnhonk.supabase.co",
-  SUPABASE_ANON_KEY: "PASTE_YOUR_ANON_PUBLIC_KEY_HERE",
+  SUPABASE_URL: "https://cuymppzwitmjxjfbazww.supabase.co",
+  SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN1eW1wcHp3aXRtanhqZmJhend3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg4MTY3MTYsImV4cCI6MjA5NDM5MjcxNn0.TS-JaYk3d1iPPfNNfwDZqbCP4n-i_GN1NDn2Avd_PWQ",
 
   // Optional. Paste Google Apps Script Web App URL here later.
-  GOOGLE_SHEETS_WEBHOOK_URL: "",
+  GOOGLE_SHEETS_WEBHOOK_URL: "https://script.google.com/macros/s/AKfycbwv7gQtBX-jXVSZ7JJ-j-sochhHZgU_fbUz79CyQEkxZDEWxrBQdMjQXCVqjof9WXMu/exec",
 
   BRAND_NAME: "2FLY Payment Verification Hub",
 
