@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Setup Status | 2FLY Payment Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="setup">
+<main class="auth-shell">
+  <section class="auth-card">
+    <div class="logo mb">
+      <div class="mark">2F</div>
+      <div>
+        <div class="brand">2FLY Payment Hub</div>
+        <div class="sub">Hard-coded configuration</div>
+      </div>
+    </div>
+
+    <h1>Setup locked.</h1>
+    <p>This version is hard-coded. Staff/admins do not need to set up anything on their device.</p>
+
+    <div class="notice info">
+      <strong>Status:</strong> <span id="hardcodedStatus">Checking...</span>
+    </div>
+
+    <div class="notice">
+      <strong>Supabase URL:</strong> <span id="hardcodedUrl">Checking...</span><br>
+      <strong>Anon key:</strong> <span id="hardcodedKey">Checking...</span>
+    </div>
+
+    <a class="btn" href="login.html" style="display:inline-block">Go to Login</a>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="app.js"></script>
+</body>
+</html>
