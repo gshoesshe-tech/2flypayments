@@ -13,8 +13,8 @@ const APP_CONFIG = {
 
   GCASH_ACCOUNTS: [
     { id:"gcash_1", label:"GCash 1", accountName:"Lorna Diaz", accountNumber:"0912 669 9412" },
-    { id:"gcash_2", label:"GCash 2", accountName:"Account Name 2", accountNumber:"09XX XXX XXXX" },
-    { id:"gcash_3", label:"GCash 3", accountName:"Account Name 3", accountNumber:"09XX XXX XXXX" }
+    { id:"gcash_2", label:"GCash 2", accountName:"Monaliza V.", accountNumber:"09605971283" },
+    { id:"gcash_3", label:"GCash 3", accountName:"Myra V.", accountNumber:"09949839551" }
   ]
 };
 
